@@ -1,3 +1,3 @@
-let hello;
-hello='Привет';
-alert(hello)
+/*let hello;
+hello='Привет';*/
+alert('Hello world!')
