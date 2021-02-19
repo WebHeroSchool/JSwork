@@ -2,9 +2,41 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Подключение js</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Игра js</title>
   </head>
   <body>
+    <h1 id = 'question'></h1>
+
+    <div class = 'quiz'>
+      <div class = 'myQuestions fade'>
+        <h1 class="quiz__question">Кто придумал JS?</h1>
+        <button>а.Брендан Эйх</button>
+        <button>b.Катя Матвеева</button>
+        <button>c.Дональд Трамп</button>
+      </div>
+      <div class = 'myQuestions fade'>
+        <h1 class="quiz__question">Кто проживает на дне океана?</h1>
+        <button>а.Самооценка</button>
+        <button>b.Спанч Боб Сквепенс</button>
+        <button>c.Политика</button>
+      </div>
+        <div class = 'myQuestions fade'>
+        <h1 class="quiz__question">В лесу родилась она, кто?</h1>
+        <button>а.Елочка</button>
+        <button>b.Пихта</button>
+        <button>c.Гладиолус</button>
+      </div>
+  </div>
+  <div>
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  <div class="next_prev">
+    <button id='previous' onclick="plusSlides(-1)">previous</button>
+    <button id='next' onclick="plusSlides(+1)"> next </button>
+  </div>
     <script src="js/script1.js" type="text/javascript"></script>
   </body>
 </html>
