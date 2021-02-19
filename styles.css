@@ -1,0 +1,18 @@
+#next,#previous{
+  background: #73c7eb;
+  margin-top: 6%;
+  padding: 1% 2%;
+}
+#previous{
+  margin-right: 5%;
+}
+.quiz{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz__question, .next_prev{
+  display: flex;
+  justify-content: center;
+}
